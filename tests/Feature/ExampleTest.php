@@ -6,6 +6,6 @@ test('the application returns a successful response', function () {
     $response->assertJsonStructure([
         'name',
         'role',
-        'created_atx'
+        'created_at'
     ]);
 });
